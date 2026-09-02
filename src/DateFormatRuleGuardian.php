@@ -6,6 +6,7 @@ use Aegisora\Guardian\Exceptions\GuardianExecutingRuleException;
 use Aegisora\Guardian\Exceptions\GuardianValidationException;
 use Aegisora\Guardian\Guardian;
 use Aegisora\Rules\DateFormatRule;
+use DateTimeZone;
 use Throwable;
 
 class DateFormatRuleGuardian
@@ -30,5 +31,20 @@ class DateFormatRuleGuardian
         ?Throwable $exception = null
     ): void {
         $this->guardian->check($value, new DateFormatRule($format), $exception);
+    }
+
+    /**
+     * @param mixed $value
+     * @throws GuardianExecutingRuleException
+     * @throws GuardianValidationException
+     * @throws Throwable
+     */
+    public function checkWithDateTimezone(
+        $value,
+        string $format,
+        DateTimeZone $timeZone,
+        ?Throwable $exception = null
+    ): void {
+        $this->guardian->check($value, new DateFormatRule($format, $timeZone), $exception);
     }
 }
