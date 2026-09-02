@@ -1,8 +1,20 @@
 {
     "name": "aegisora/date-format-rule-guardian",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "description": "Date Format Rule Guardian provides a simple shortcut for ensuring a value is a string that matches a given date/time format using",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "date",
+        "date-format",
+        "date-validation",
+        "date-format-rule",
+        "rule",
+        "rule-guardian"
+    ],
     "homepage": "https://github.com/Aegisora/date-format-rule-guardian",
     "support": {
         "issues": "https://github.com/Aegisora/date-format-rule-guardian/issues",
