@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1788364810">
-  <project timestamp="1788364810">
+<coverage generated="1788364952">
+  <project timestamp="1788364952">
     <file name="/home/runner/work/date-format-rule-guardian/date-format-rule-guardian/src/DateFormatRuleGuardian.php">
       <class name="Aegisora\RuleGuardians\DateFormatRule\DateFormatRuleGuardian" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
